@@ -25,7 +25,7 @@ ax.GridAlpha = 0.5;
 title('AMI');
 
 counter = 0;
-lastbit = 1;
+lastbit = -1;
 for i = 1:length(t)
   if t(i)>counter
     counter = counter + 1;
