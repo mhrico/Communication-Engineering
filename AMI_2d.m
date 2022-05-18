@@ -6,7 +6,7 @@ N = n*length(bits);
 dt = T/N;
 t = 0:dt:T;
 x = zeros(1,length(t));
-lastbit = 1;
+lastbit = -1;
 for i=1:length(bits)
   if bits(i)==1
     x((i-1)*n+1:i*n) = -lastbit;
