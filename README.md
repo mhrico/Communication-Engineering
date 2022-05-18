@@ -5,8 +5,8 @@
     - [x] Unipolar NRZ 
     - [x] Polar NRZ-L 
         - [x] NRZ-I, 
-    - [ ] Polar RZ, Manchester, Differential Manchester and 
-    - [ ] Bipolar AMI 
+    - [x] Polar RZ, Manchester, Differential Manchester and 
+    - [x] Bipolar AMI 
     - [ ] Multi-transition MLT-3 
 3. [ ] Implementation of encoding and decoding using B8ZS and HDB3 scrambling techniques. 
 4. [ ] Implementation of modulation using AM and FM 
