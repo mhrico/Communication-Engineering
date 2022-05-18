@@ -39,8 +39,8 @@ for i = 1:length(t)
   if t(i)>counter
     counter = counter + 1;
     if x(i)>0
-      result(counter) = x(i);
-    else result(counter) = 0;
+      result(counter) = 0;
+    else result(counter) = 1;
     end
   end
 end
