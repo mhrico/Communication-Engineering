@@ -3,7 +3,7 @@ amp_message = 1
 frequency_carrier = 10
 frequency_message = 1
 m = 8; % Modulation index
-T = 4
+T = 4;
 t = 0:0.001:T;
 
 message = amp_message.*sin(2*pi*frequency_message*t);
