@@ -16,8 +16,15 @@ for i = 1:length(bits)
 end
 
 plot(t, x, 'Linewidth', 3, 'Color', 'r');
+hold on;
+plot(xlim, [0 0], '-r')
+hold off;
+ax = gca;
+ax.XGrid = 'on';
+ax.YGrid = 'off';
+ax.GridAlpha = 0.5;
 title('Encoded Signal');
-grid on;
+
 %%decoding
 counter = 0;
 for i = 1:length(t)

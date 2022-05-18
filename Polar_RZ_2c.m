@@ -23,6 +23,15 @@ for i=1:length(bits)
 end
 
 plot(t, x, 'Linewidth', 3);
+hold on;
+plot(xlim, [0 0], '-r')
+hold off;
+ax = gca;
+ax.XGrid = 'on';
+ax.YGrid = 'off';
+ax.GridAlpha = 0.5;
+
+title('Polar RZ');
 
 counter = 0;
 
