@@ -36,5 +36,5 @@ for i = 1:length(t)
     end
   end
 end
-disp('AMI Decoding:');
+
 disp(result);
