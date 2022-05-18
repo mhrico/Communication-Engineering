@@ -1,6 +1,6 @@
 # ICE3261
 
-1. [x] ![https://youtu.be/rHzQkFgt4Lo]("Basic concepts of analog/digital signal, composite signal.")
+1. [x] [Basic concepts of analog/digital signal, composite signal.](https://youtu.be/rHzQkFgt4Lo)
 2. [x] Implementation of modulation and demodulation for the following line coding techniques:
     - [x] Unipolar NRZ 
     - [x] Polar NRZ-L 
