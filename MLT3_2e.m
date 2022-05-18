@@ -1,3 +1,5 @@
+%% Encoding
+
 bits = [1 1 0 1 1 0 1 1];
 mlt = zeros(1, length(bits));
 
@@ -28,3 +30,32 @@ for i = 2:length(bits)
         mlt(i) = 0;
     end
 end
+
+bitrate = 1;
+T = length(bits)/bitrate;
+n = 1000;
+N = n * length (bits);
+dt = T / N;
+t = 0:dt:T;
+
+x = zeros(1, length(t));
+
+%% Plotting
+
+for i = 1:length(bits)
+    x((i-1) * n + 1 : i * n) = mlt(i);
+end
+
+plot(t, x, 'Linewidth', 3);
+hold on;
+plot(xlim, [0 0], '-r')
+hold off;
+ax = gca;
+ax.XGrid = 'on';
+ax.YGrid = 'off';
+ax.GridAlpha = 0.5;
+title('MLT-3');
+
+%% Decoding
+
+% Decoding this is not possible

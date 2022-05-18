@@ -7,7 +7,7 @@
         - [x] NRZ-I, 
     - [x] Polar RZ, Manchester, Differential Manchester and 
     - [x] Bipolar AMI 
-    - [ ] Multi-transition MLT-3 
+    - [x] Multi-transition MLT-3 
 3. [ ] Implementation of encoding and decoding using B8ZS and HDB3 scrambling techniques. 
 4. [x] Implementation of modulation using AM and FM 
 5. [ ] Implementation of modulation and demodulation using ASK, FSK and PSK
